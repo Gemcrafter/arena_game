@@ -1,0 +1,35 @@
+README
+# This set is the most recent
+# associated files can be found in the required relative on the 
+
+*  rfx141 file (rfx + iteration number) is main program
+	# >>>> includes
+*		rfx_meth15.rb  
+			(methods_iteration number)
+*		rfx_rollem.rb   
+			(randomizer calls)
+	
+
+*	0001generation_list (character generator) 
+	# the generation list calls these files
+*		first_name_list.txt  
+			(combatant first name list for generator)
+*		name_title_list.txt  
+			(combatant title list for generator)
+
+*	hall_of_fame.txt 
+		(the main rfx file writes combat results and stats to this page for verification)
+
+
+# The AdvancedBreakthroughs folder have the last verified version of known operational files.  See the appropriate page calls on the rfxNumber file, using the above structure
+
+
+# Use commmand line to access cd file name, etc
+# seo\Programming\Rtest1\combatgame\LastCreated
+then type program name 
+ rfx141.rb to launch
+
+ Additional notes and concepts can be found at the end of the main frx file
+
+Currently set for free-for-all mode
+combatants are hard coded for testing purposes at 3 (in 0001generation_list line 102)
